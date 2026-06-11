@@ -4,6 +4,9 @@
     "cpus": 4
   },
   "features":{
+    "ghcr.io/devcontainers/features/node:2": {
+      "version": "lts" // Installs the current LTS version using the v2 installer script
+    }
   },
   "waitFor": "onCreateCommand",
   "updateContentCommand": "npm install",
