@@ -1,0 +1,20 @@
+[
+    {
+        "key": "ctrl+p",
+        "command": "workbench.action.quickOpen",
+        "when": "!terminalFocus",
+    },
+    {
+        "key": "ctrl+p",
+        "command": "-workbench.action.quickOpen",
+    },
+    {
+        "key": "esc",
+        "command": "workbench.action.quickOpen",
+        "when": "!terminalFocus",
+    },
+    {
+        "key": "esc",
+        "command": "-workbench.action.quickOpen",
+    },
+]
